@@ -50,7 +50,7 @@ select {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    padding: 5px 15px;
+    padding: 5px 25px;
     border-radius: 3px;
 }
 
