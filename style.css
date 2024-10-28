@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.permanent-marker-regular {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.caveat {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+div h2 {
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 31px;
+    
+}
+form p {
+    font-family: "caveat";
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 25px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: none;
+}
+
+select {
+    background-color: #f9f9f9;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.img-op {
+  text-align: center;
+  margin: 3rem auto -35rem auto;
+  
+}
+
+.img-marco {
+    border: #000000 solid 1px;
+    box-shadow: 5px 5px 15px rgba(85, 84, 84, 0.3);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -50px;
+   
+}
+
+div div img {
+    width: 250px;
+}
+
+.form-opc {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 20px;
+}
+
+div form section {
+    padding: 10px;
+}

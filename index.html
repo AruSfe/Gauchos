@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DynaPuff:wght@400..700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario Gauchos</title>
+    <link rel="icon" href="Foto/gaucho-ico.png" type="image/png">
+</head>
+<body>
+    <div class="img-op">
+        <img class="img-marco" src="Foto/img2.png" alt="Foto colores">
+    </div>
+  
+    <div class="form-opc">
+        <div class="logo">
+            <img src="Foto/gaucho.png" alt="gauchos logo"><br>
+        </div>
+        <h2>Tu opinion nos importa</h2>
+        <form action="/enviar" method="POST" data-netlify="true">
+         
+            <!-- Desplegable -->            
+            <p>Motivo de su mensaje</p>
+            <select id="opciones" name="Motivo" required>   
+                <option value="" selected="true" disabled="disabled">Seleccione una Opción...</option>       
+                <option value="comentario">Comentario</option>
+                <option value="sugerencia">Sugerencias</option>
+                <option value="critica">Critica</option>
+            </select>
+
+            <br><br>
+
+            <!-- Campo de texto para mensaje con placeholder -->        
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escriba su mensaje aquí..." required></textarea>
+            <br><br>
+
+            <!-- Botón de envío -->
+            <button type="submit">Enviar</button>
+         </form>
+   
+    </div>
+   
+</body>
+</html>
